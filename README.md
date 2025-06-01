@@ -147,15 +147,9 @@ This section provides a comprehensive guide to all features and settings within 
 ### Home Screen
 
 <table>
-  <thead>
-    <tr>
-      <th style="width: 220px;"></th>
-      <th></th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td style="width: 220px;"><img src="screenshots/promptly_home1.png" alt="Promptly Home Screen 1" style="width: 200px; min-width: 200px; height: auto;"/></td>
+      <td style="width: 220px;"><img src="screenshots/promptly_home1.png" alt="Promptly Home Screen 1" style="width: 200px; min-width: 200px; height: 200px;"/></td>
       <td><strong>Prompt Button:</strong> Tap to initiate voice input for your prompt or on-screen keyboard. Speak clearly, and the app will transcribe your words into text.<br/><strong>Settings Cog:</strong> Access the main application settings, where you can configure AI providers, history, memory, and other app preferences.<br/><strong>Cycle AI Providers:</strong> Cycle between the enabled AI providers.<br/><strong>History Icon:</strong> Navigate to your prompt history, allowing you to review past conversations and AI responses.</td>
     </tr>
   </tbody>
@@ -164,15 +158,9 @@ This section provides a comprehensive guide to all features and settings within 
 ### AI Providers
 
 <table>
-  <thead>
-    <tr>
-      <th style="width: 220px;"></th>
-      <th></th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td style="width: 220px;"><img src="screenshots/promptly_ai_providers.png" alt="AI Providers Screen" style="width: 200px; min-width: 200px; height: auto;"/></td>
+      <td style="width: 220px;"><img src="screenshots/promptly_ai_providers.png" alt="AI Providers Screen" style="width: 200px; min-width: 200px; height: 200px;"/></td>
       <td><strong>Enable/Disable:</strong> Each AI provider can be enabled or disabled. To enable a provider, you must first add and verify a valid API key.<br/><strong>Configure API Key:</strong> Add or Remove an API Key<br/><strong>Change Model:</strong> Within a provider's settings, tap "Model" to select a different AI model if available. Different models may offer varied performance or capabilities.<br/><strong>Model Settings:</strong> Temperature and max tokens.</td>
     </tr>
   </tbody>
@@ -181,15 +169,9 @@ This section provides a comprehensive guide to all features and settings within 
 ### History
 
 <table>
-  <thead>
-    <tr>
-      <th style="width: 220px;"></th>
-      <th></th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td style="width: 220px;"><img src="screenshots/promptly_history.png" alt="History Screen" style="width: 200px; min-width: 200px; height: auto;"/></td>
+      <td style="width: 220px;"><img src="screenshots/promptly_history.png" alt="History Screen" style="width: 200px; min-width: 200px; height: 200px;"/></td>
       <td><strong>Enable/Disable History:</strong> Toggle the Enable/Disable option in the History settings to control whether your conversations are saved locally on the watch.<br/><strong>Configure Max History Items:</strong> Use the "Max History Items" slider to set the maximum number of past conversations the app will store. Older items will be automatically removed when this limit is reached.<br/><strong>Clear History:</strong> Tap "Clear History" in the History settings to permanently delete all stored conversation history from your watch. This action cannot be undone.</td>
     </tr>
   </tbody>
@@ -198,15 +180,9 @@ This section provides a comprehensive guide to all features and settings within 
 ### Memory
 
 <table>
-  <thead>
-    <tr>
-      <th style="width: 220px;"></th>
-      <th></th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td style="width: 220px;"><img src="screenshots/promptly_memory.png" alt="Memory Screen" style="width: 200px; min-width: 200px; height: auto;"/></td>
+      <td style="width: 220px;"><img src="screenshots/promptly_memory.png" alt="Memory Screen" style="width: 200px; min-width: 200px; height: 200px;"/></td>
       <td><strong>What is Memory?:</strong> The memory feature allows the AI to retain specific pieces of information across different conversations. This helps the AI provide more personalized and contextually relevant responses over time.<br/><strong>Add Memories:</strong> Tap "Add Memory", then type in any key information, facts, or preferences you want the AI to remember. Save your entry to add it to the AI's long-term memory.<br/><strong>Delete Memories:</strong> Will remove all memories from the AI's long-term memory. This action cannot be undone.</td>
     </tr>
   </tbody>
@@ -215,15 +191,9 @@ This section provides a comprehensive guide to all features and settings within 
 ### Persona
 
 <table>
-  <thead>
-    <tr>
-      <th style="width: 220px;"></th>
-      <th></th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td style="width: 220px;"><img src="screenshots/promptly_personas.png" alt="Persona Screen" style="width: 200px; min-width: 200px; height: auto;"/></td>
+      <td style="width: 220px;"><img src="screenshots/promptly_personas.png" alt="Persona Screen" style="width: 200px; min-width: 200px; height: 200px;"/></td>
       <td><strong>Overview:</strong> Personas enable you to define a specific role, style, or set of characteristics for the AI. The app automatically incorporates your active persona into every prompt, influencing the AI's tone and behavior.</td>
     </tr>
   </tbody>
@@ -232,15 +202,9 @@ This section provides a comprehensive guide to all features and settings within 
 ### Reset All Settings
 
 <table>
-  <thead>
-    <tr>
-      <th style="width: 220px;"></th>
-      <th></th>
-    </tr>
-  </thead>
   <tbody>
     <tr>
-      <td style="width: 220px;"><img src="screenshots/promptly_reset.png" alt="Reset All Settings Screen" style="width: 200px; min-width: 200px; height: auto;"/></td>
+      <td style="width: 220px;"><img src="screenshots/promptly_reset.png" alt="Reset All Settings Screen" style="width: 200px; min-width: 200px; height: 200px;"/></td>
       <td><strong>Revert all application settings:</strong> Revert all application settings, including AI provider configurations, API keys, history, memories, and personas, back to their default factory values. Please note that this action is irreversible and will clear all custom data.</td>
     </tr>
   </tbody>
