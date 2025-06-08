@@ -128,7 +128,7 @@ _**Important:** Promptly requires you to provide your own API keys for the AI pr
     1. Open the Promptly companion phone app
     1. Make sure the watch show **Watch Connected**, if the watch doesn't show connected make sure Promptly is open and running on your Wear OS device.
     1. Select your AI provider you have an API key for in the Promptly phone companion app
-    1. Paste your API key and click send
+    1. Paste your API key and click **Send to watch**
 1.  **Verify API Keys on Watch:**
     1. Open Promptly on your WearOS watch
     1. Tap **Settings** (⚙️ icon in the bottom left)
