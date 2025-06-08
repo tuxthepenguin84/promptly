@@ -114,19 +114,31 @@ https://github.com/user-attachments/assets/ec677d8f-0806-4176-947b-dbcd19b0136f
 
 _**Important:** Promptly requires you to provide your own API keys for the AI providers you wish to use. **The app will not function without valid API keys.**_
 
-Obtain API Keys from various AI Providers: [Gemini](https://ai.google.dev/gemini-api/docs/api-key), [OpenAI](https://platform.openai.com/api-keys), [Anthropic](https://www.anthropic.com/api), [Grok](https://x.ai/api), [Ollama](https://github.com/ollama/ollama). When using Ollama, an API key is optional/not required.
-
+1.  Obtain API Keys from various AI Providers: [Gemini](https://ai.google.dev/gemini-api/docs/api-key), [OpenAI](https://platform.openai.com/api-keys), [Anthropic](https://www.anthropic.com/api), [Grok](https://x.ai/api), [Ollama](https://github.com/ollama/ollama). When using Ollama, an API key is optional/not required.
 1.  **Install Promptly WearOS App:** Download Promptly from the Google Play Store on your WearOS device.
 1.  **Install Promptly Companion Phone App:** Download the Promptly companion app on your Android phone. This makes sending your API key to your watch fast and easy.
-1.  **Send API Keys to Watch:** Open the companion phone app to easily enter and send your AI provider API keys to your watch. This avoids the need for manual typing on the small watch screen, although you _can_ manually type it out on the watch if you want too. I recommend using [Google Keep https://keep.google.com](https://keep.google.com) to easily input your API key on your computer to a note, then on your Android phone install [Google Keep on Android](https://play.google.com/store/apps/details?id=com.google.android.keep). Once you have Keep on your Android phone you can copy the API key, open the Promptly companion app, select your AI provider and paste your API key to send to the watch.
+1.  **Send API Keys to Watch:**
+    1. Once you have your API key from one of the providers above we need to transfer the API key to your phone and then use the Promptly companion phone app to send the keys to your watch.
+    1. The easiest method to do that is to use [Google Keep https://keep.google.com](https://keep.google.com)
+    1. Using a web browser, create a new note in [Google Keep https://keep.google.com](https://keep.google.com)
+    1. Paste your API key in the note
+    1. On your Android phone install [Google Keep on Android](https://play.google.com/store/apps/details?id=com.google.android.keep)
+    1. Open Keep on your Android phone and you should see the note with the API key, if not give it a few minutes to sync
+    1. Highlight the entire API key and copy it to the clipboard
+    1. Open the Promptly companion phone app
+    1. Make sure the watch show **Watch Connected**, if the watch doesn't show connected make sure Promptly is open and running on your Wear OS device.
+    1. Select your AI provider you have an API key for in the Promptly phone companion app
+    1. Paste your API key and click send
 1.  **Verify API Keys on Watch:**
-    1. Settings
-    1. AI Providers
-    1. Select your AI provider
-    1. Configure API Key
-    1. You should see part of your API key you sent with from the companion app
-    1. Verify
-1.  **Start Chatting:** Once your API keys are verified, you can start interacting with your chosen AI models directly from your WearOS device.
+    1. Open Promptly on your WearOS watch
+    1. Tap **Settings** (⚙️ icon in the bottom left)
+    1. Tap **AI Providers**
+    1. Tap the AI provider you have an API key for
+    1. Tap **Configure API Key**
+    1. You should see part of your API key you sent with from the companion app, first few and last few characters
+    1. Tap **Verify**
+    1. Your key should show **Verified** if everything is working. If this fails, verify you have the correct AI provider selected and that you have the correct API key sent to the device.
+1.  **Start Chatting:** Once your API keys are verified, you can start interacting with your chosen AI models directly from your WearOS device, by navigating back to the home screen of the Promptly WearOS app
 
 ### Google Play Store Link
 
@@ -224,7 +236,7 @@ This section provides a comprehensive guide to all features and settings within 
 
 ## FAQ
 
-- **How can I generate images?** - Go to Settings, AI Providers, select your provider, Change Model, select an image generating model. On the Home Screen tap the provider and input a prompt. Sometimes you may have to phrase your request as _"Generate an image of ..."_
+- **How can I generate images?** - Go to **Settings**, **AI Providers**, select your provider, **Change Model**, select an image generating model. On the Home Screen tap the provider and input a prompt. Sometimes you may have to phrase your request as _"Generate an image of ..."_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -232,7 +244,9 @@ This section provides a comprehensive guide to all features and settings within 
 
 ## Troubleshooting
 
-- **The companion phone app says "Watch Disconnected"** - Verify Bluetooth is enabled on your Android phone and your WearOS device. Open the [Google Pixel Watch](https://play.google.com/store/apps/details?id=com.google.android.apps.wear.companion) app, also called "Watch", on your Android phone and verify your watch shows as "Connected" then try again.
+- **The companion phone app says "Watch Disconnected"** - Verify Bluetooth is enabled on your Android phone and your WearOS device. Open the [Google Pixel Watch](https://play.google.com/store/apps/details?id=com.google.android.apps.wear.companion) app, also called "Watch", on your Android phone and verify your watch shows as "Connected" then try again. Make sure Promptly is also running on your WearOS device.
+
+- **API key verification fails** - Make sure you are sending the entire API key, it must be exactly as it is provided to you from the AI provider.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -240,8 +254,8 @@ This section provides a comprehensive guide to all features and settings within 
 
 ## Roadmap
 
-- [ ] AI generated videos
-- [ ] Additional AI providers
+- AI generated videos
+- Additional AI providers
 
 See the [open issues](https://github.com/tuxthepenguin84/promptly/issues) for a full list of proposed features (and known issues).
 
