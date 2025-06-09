@@ -13,7 +13,7 @@
 <h3 align="center">Promptly</h3>
 
   <p align="center">
-    AI Chat on WearOS
+    AI Chat on Wear OS
     <br />
     <a href="#documentation"><strong>Explore the docs »</strong></a>
     <br />
@@ -55,7 +55,7 @@
   </a>
 </div>
 
-Promptly is an AI Chat app designed specifically for WearOS devices, allowing you to interact with various AI models directly from your smartwatch. It offers a seamless and intuitive way to get quick answers, generate creative text & images, and manage your AI conversations on the go. The companion phone app facilitates transferring your API key to your WearOS device.
+Promptly is an AI Chat app designed specifically for Wear OS devices, allowing you to interact with various AI models directly from your smartwatch. It offers a seamless and intuitive way to get quick answers, generate creative text & images, and manage your AI conversations on the go. The companion phone app facilitates transferring your API key to your Wear OS device.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,7 +115,7 @@ https://github.com/user-attachments/assets/ec677d8f-0806-4176-947b-dbcd19b0136f
 _**Important:** Promptly requires you to provide your own API keys for the AI providers you wish to use. **The app will not function without valid API keys.**_
 
 1.  Obtain API Keys from various AI Providers: [Gemini](https://ai.google.dev/gemini-api/docs/api-key), [OpenAI](https://platform.openai.com/api-keys), [Anthropic](https://www.anthropic.com/api), [Grok](https://x.ai/api), [Ollama](https://github.com/ollama/ollama). When using Ollama, an API key is optional/not required.
-1.  **Install Promptly WearOS App:** Download Promptly from the Google Play Store on your WearOS device.
+1.  **Install Promptly Wear OS App:** Download Promptly from the Google Play Store on your Wear OS device.
 1.  **Install Promptly Companion Phone App:** Download the Promptly companion app on your Android phone. This makes sending your API key to your watch fast and easy.
 1.  **Send API Keys to Watch:**
     1. Once you have your API key from one of the providers above we need to transfer the API key to your phone and then use the Promptly companion phone app to send the keys to your watch.
@@ -130,7 +130,7 @@ _**Important:** Promptly requires you to provide your own API keys for the AI pr
     1. Select your AI provider you have an API key for in the Promptly phone companion app
     1. Paste your API key and click **Send to watch**
 1.  **Verify API Keys on Watch:**
-    1. Open Promptly on your WearOS watch
+    1. Open Promptly on your Wear OS watch
     1. Tap **Settings** (⚙️ icon in the bottom left)
     1. Tap **AI Providers**
     1. Tap the AI provider you have an API key for
@@ -138,7 +138,7 @@ _**Important:** Promptly requires you to provide your own API keys for the AI pr
     1. You should see part of your API key you sent with from the companion app, first few and last few characters
     1. Tap **Verify**
     1. Your key should show **Verified** if everything is working. If this fails, verify you have the correct AI provider selected and that you have the correct API key sent to the device.
-1.  **Start Chatting:** Once your API keys are verified, you can start interacting with your chosen AI models directly from your WearOS device, by navigating back to the home screen of the Promptly WearOS app
+1.  **Start Chatting:** Once your API keys are verified, you can start interacting with your chosen AI models directly from your Wear OS device, by navigating back to the home screen of the Promptly Wear OS app
 
 ### Google Play Store Link
 
@@ -154,7 +154,7 @@ _**Important:** Promptly requires you to provide your own API keys for the AI pr
 
 ## Documentation
 
-This section provides a comprehensive guide to all features and settings within the Promptly app on your WearOS device.
+This section provides a comprehensive guide to all features and settings within the Promptly app on your Wear OS device.
 
 ### Home Screen
 
@@ -228,7 +228,7 @@ This section provides a comprehensive guide to all features and settings within 
 
 ## Known Issues
 
-- **DNS lookups fail for locally hosted Ollama** - Promptly can access the Internet via cellular, WiFi, or Bluetooth over your phone when accessing AI providers. However, there is a limitation of WearOS where it will fail to do DNS lookups for **hostnames** within RFC1918 IP space (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) when using only Bluetooth over your phone, this limitation does not exist when using cellular or WiFi. You may run into this if you are hosting Ollama locally and your watch is connected to your phone via Bluetooth with WiFi or cellular disabled/off. The work around for this is to either disconnect Bluetooth and use WiFi or cellular, or instead configure the Ollama URL to use IP address rather than hostname/fqdn.
+- **DNS lookups fail for locally hosted Ollama** - Promptly can access the Internet via cellular, WiFi, or Bluetooth over your phone when accessing AI providers. However, there is a limitation of Wear OS where it will fail to do DNS lookups for **hostnames** within RFC1918 IP space (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) when using only Bluetooth over your phone, this limitation does not exist when using cellular or WiFi. You may run into this if you are hosting Ollama locally and your watch is connected to your phone via Bluetooth with WiFi or cellular disabled/off. The work around for this is to either disconnect Bluetooth and use WiFi or cellular, or instead configure the Ollama URL to use IP address rather than hostname/fqdn.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,7 +244,7 @@ This section provides a comprehensive guide to all features and settings within 
 
 ## Troubleshooting
 
-- **The companion phone app says "Watch Disconnected"** - Verify Bluetooth is enabled on your Android phone and your WearOS device. Open the [Google Pixel Watch](https://play.google.com/store/apps/details?id=com.google.android.apps.wear.companion) app, also called "Watch", on your Android phone and verify your watch shows as "Connected" then try again. Make sure Promptly is also running on your WearOS device.
+- **The companion phone app says "Watch Disconnected"** - Verify Bluetooth is enabled on your Android phone and your Wear OS device. Open the [Google Pixel Watch](https://play.google.com/store/apps/details?id=com.google.android.apps.wear.companion) app, also called "Watch", on your Android phone and verify your watch shows as "Connected" then try again. Make sure Promptly is also running on your Wear OS device.
 
 - **API key verification fails** - Make sure you are sending the entire API key, it must be exactly as it is provided to you from the AI provider.
 
