@@ -238,6 +238,14 @@ This section provides a comprehensive guide to all features and settings within 
 
 - **How can I generate images?** - Go to **Settings**, **AI Providers**, select your provider, **Change Model**, select an image generating model. On the Home Screen tap the provider and input a prompt. Sometimes you may have to phrase your request as _"Generate an image of ..."_
 
+  Supported image generation models:
+
+  - **Gemini:** Imagen 3
+  - **OpenAI:** gpt-image-1, dall-e-2, dall-e-3
+  - **Anthropic:** N/A - no image models available
+  - **Grok:** Coming Soon...
+  - **Ollama:** Coming Soon...
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- TROUBLESHOOTING -->
@@ -255,7 +263,7 @@ This section provides a comprehensive guide to all features and settings within 
 ## Roadmap
 
 - AI generated videos
-- Additional AI providers
+- Additional AI providers and models
 
 See the [open issues](https://github.com/tuxthepenguin84/promptly/issues) for a full list of proposed features (and known issues).
 
