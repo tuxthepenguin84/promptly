@@ -162,7 +162,7 @@ This section provides a comprehensive guide to all features and settings within 
   <tbody>
     <tr>
       <td style="width: 200px;"><img src="screenshots/promptly_home1.png" alt="Promptly Home Screen 1"/></td>
-      <td style="width: 400px;"><strong>Prompt Button:</strong> Tap to initiate voice input for your prompt or on-screen keyboard. Speak clearly, and the app will transcribe your words into text.<br/><strong>Settings Cog:</strong> Access the main application settings, where you can configure AI providers, history, memory, and other app preferences.<br/><strong>Cycle AI Providers:</strong> Cycle between the enabled AI providers.<br/><strong>History Icon:</strong> Navigate to your prompt history, allowing you to review past conversations and AI responses.</td>
+      <td style="width: 400px;"><strong>Prompt Button:</strong> Tap to initiate voice input for your prompt or on-screen keyboard. Speak clearly, and the app will transcribe your words into text. You can also swipe up or down on the prompt button to cycle between recent models.<br/><strong>Settings Cog:</strong> Access the main application settings, where you can configure AI providers, history, memory, and other app preferences.<br/><strong>Cycle AI Providers:</strong> Cycle between the enabled AI providers.<br/><strong>History Icon:</strong> Navigate to your prompt history, allowing you to review past conversations and AI responses.</td>
     </tr>
   </tbody>
 </table>
