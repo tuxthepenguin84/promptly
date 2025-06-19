@@ -211,6 +211,16 @@ This section provides a comprehensive guide to all features and settings within 
   </tbody>
 </table>
 
+### Themes
+
+<table>
+  <tbody>
+    <tr>
+      <td style="width: 400px;"><strong>Overview:</strong> Change the look and feel of the app by selecting a theme that best suits your style.</td>
+    </tr>
+  </tbody>
+</table>
+
 ### Reset All Settings
 
 <table>
