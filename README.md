@@ -264,6 +264,8 @@ This section provides a comprehensive guide to all features and settings within 
 
 - **The companion phone app says "Watch Disconnected"** - Verify Bluetooth is enabled on your Android phone and your Wear OS device. Open the [Google Pixel Watch](https://play.google.com/store/apps/details?id=com.google.android.apps.wear.companion) app, also called "Watch", on your Android phone and verify your watch shows as "Connected" then try again. Make sure Promptly is also running on your Wear OS device.
 
+- **No AI Providers Enabled** - This means you need to have a verified API key and then enable the AI provider. See getting started section above.
+
 - **API key verification fails** - Make sure you are sending the entire API key, it must be exactly as it is provided to you from the AI provider.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
