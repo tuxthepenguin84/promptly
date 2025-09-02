@@ -250,11 +250,11 @@ This section provides a comprehensive guide to all features and settings within 
 
   Supported image generation models:
 
-  - **Gemini:** imagen-3.0-generate-002, gemini-2.0-flash-preview-image-generation, gemini-2.0-flash-exp-image-generation
+  - **Gemini:** imagen-4.0-fast-generate-001, imagen-4.0-ultra-generate-001, imagen-4.0-generate-001, imagen-4.0-ultra-generate-preview-06-06, imagen-4.0-generate-preview-06-06, imagen-3.0-generate-002, gemini-2.5-flash-image-preview, gemini-2.0-flash-preview-image-generation, gemini-2.0-flash-exp-image-generation
   - **OpenAI:** gpt-image-1, dall-e-2, dall-e-3
   - **Anthropic:** N/A - no image models available
   - **Grok:** Coming Soon...
-  - **Ollama:** Coming Soon...
+  - **Ollama:** N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
